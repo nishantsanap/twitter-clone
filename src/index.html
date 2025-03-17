@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter-Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home" /> -->
+  </head>
+  <body class="text-black bg-white dark:bg-gray-900 dark:text-white">
+    <div class="flex mx-auto my-4 md:container">
+      <!-- -------------------------------first-sec----------------------------------- -->
+      <div class="w-16 md:w-[70%]" id="first-sec">
+        <div class="self-start mx-2 my-4 logo invert md:mx-16">
+          <svg
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+            class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+          >
+            <g>
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+              ></path>
+            </g>
+          </svg>
+        </div>
+        <div id="sidebar" class="flex justify-end">
+          <ul class="flex-col text-xl space-y-2.5 gap-8 w-1/2">
+            <li class="icons"><i class="fa-solid fa-house"></i>Home</li>
+            <li class="icons">
+              <i class="fa-brands fa-searchengin"></i>Explore
+            </li>
+            <li class="icons">
+              <i class="fa-solid fa-bell"></i> Notifications
+            </li>
+            <li class="icons"><i class="fa-solid fa-message"></i>Messages</li>
+            <li class="icons"><i class="fa-solid fa-robot"></i>Grok</li>
+            <li class="icons"><i class="fa-solid fa-list"></i>Lists</li>
+            <li class="icons"><i class="fa-solid fa-bookmark"></i>Bookmarks</li>
+            <li class="icons"><i class="fa-solid fa-users"></i> Communities</li>
+            <li class="icons"><i class="fa-brands fa-x-twitter"></i>Premium</li>
+            <li class="icons"><i class="fa-solid fa-user-tie"></i>Profile</li>
+            <li class="icons"><i class="fa-solid fa-angles-right"></i>More</li>
+            <li class="p-1.5 m-5 bg-blue-500 border w-[70px] rounded-2xl hover:bg-blue-700 icons "><button type="button">Post</button></li>
+          </ul>
+        </div>
+        <div class="justify-end hidden w-full mx-10 mt-10 userprofile md:flex size-4">
+          <div
+              class="flex items-center justify-end gap-3 p-3 mx-12 rounded-full cursor-pointer item hover:bg-gray-800 w-fit">
+
+              <div class="p1"><img class="w-12 h-12 border rounded-full"
+                      src="https://pbs.twimg.com/profile_images/1768702764861865984/eQPyKqE7_400x400.jpg"
+                      alt="vercel"></div>
+              <div class="p2 ">
+                  <div>Nishant Sanap</div>
+                  <div class="text-gray-500 text-[15px]">@Nishantsanap08</div>
+              </div>
+          </div>
+      </div>
+      </div>
+      
+      <!-- --------------------------middle-sec---------------------------------------- -->
+      <div
+        class="w-full border border-[1px] border-x-white border-y-gray-900"
+        id="middle-sec"> Almost there...
+      </div>
+      
+      <!-- ------------------------------right-sec---------------------------------------------- -->
+      <div class="w-full" id="right-sec">
+        <div class="m-3 ml-3" id="search">
+          <input
+            class="p-1 m-2 text-white bg-gray-600 border rounded-full"
+            type="text"
+            name="search"
+            id="search"
+            placeholder="    Search"
+          />
+          <!--------------->
+          </div>
+            <div class="top-0 w-1/2 p-2 m-4 space-y-3 border cursor-pointer hover:bg-gray-800 rounded-xl">
+              <span class="text-xl font-bold">Subscribe to Premium</span> <br />
+              <span class="space-y-2.5 text-[15px]"  >Subscribe, unlock features and receive a share of revence.</span>
+              <br />
+              <button
+                class="p-1 m-1 bg-blue-500 border rounded-2xl hover:bg-blue-700">
+                Subscribe
+              </button>
+            </div>     
+            <!------------------>
+            <div class=" top-0 m-3 w-1/2 p-4 rounded-xl space-y-3 space-y-2.5 border">
+              <span class="space-y-3 text-xl font-bold">What's happening</span><br>
+              <div class="flex gap-2 cursor-pointer hover:bg-gray-800">
+                <img class="border rounded-[15px]" src="/assets/image.png" height="77px" width="77px" alt="img" />
+                <div class="font-bold">Khloe in Wonder Land</div>
+                <div class="text-gray-700">LIVE</div>
+              </div>
+                
+                  <div class="cursor-pointer hover:bg-gray-800">
+                  <div class="text-gray-500">Entertainment - Trending</div>
+                  <div class="font-bold">#WAR2</div>
+                  <div class="text-gray-500">8,666 posts</div>
+                </div>
+              
+              <div class="cursor-pointer hover:bg-gray-800">
+                <div class="text-gray-500">Trending in india</div>
+                <div class="font-bold">#MissileAttack</div>
+                <div class="text-gray-500">41.4K posts</div>
+              </div>
+              
+              <div class="cursor-pointer hover:bg-gray-800">
+                <div class="text-gray-500">Politics - Trending</div>
+                <div class="font-bold">Vietnam</div>
+                <div class="text-gray-500">50.6K posts</div>
+              </div>
+            </div>
+            <!-------------- -->
+            <div class="who top-[50vh] m-3  w-1/2 py-5 rounded-xl space-y-1 border">
+              <h1 class="px-3 text-xl font-bold">You Might Like</h1>
+
+
+              <div class="flex items-center justify-between gap-2 p-3 cursor-pointer item hover:bg-gray-800">
+                  <div class="flex gap-3">
+
+                      <div class="p1"><img class="img-layout"
+                              src="https://pbs.twimg.com/profile_images/1677636815606648832/axEaSSRr_400x400.jpg"
+                              alt="img"></div>
+                      <div class="p2 ">
+                          <div>Sachin Tendulkar</div>
+                          <div class="text-gray-500">@sachin_rt</div>
+                      </div>
+                  </div>
+
+                  <div class="p3">
+                      <button class="px-5 py-2 font-bold text-black bg-white rounded-full">Follow</button>
+                  </div>
+
+              </div>
+              <div class="flex items-center justify-between gap-2 p-3 cursor-pointer item hover:bg-gray-800">
+                  <div class="flex gap-3">
+
+                      <div class="p1"><img class="w-full h-full border rounded-full"
+                              src="https://pbs.twimg.com/profile_images/1798353145547968512/9yRNmItk_400x400.jpg"
+                              alt="img"></div>
+                      <div class="p2 ">
+                          <div>Rock</div>
+                          <div class="text-gray-500">@VishvajitP22</div>
+                      </div>
+                  </div>
+
+                  <div class="p3">
+                      <button class="px-5 py-2 font-bold text-black bg-white rounded-full">Follow</button>
+                  </div>
+
+              </div>
+              <div class="flex items-center justify-between gap-2 p-3 cursor-pointer item hover:bg-gray-800">
+                  <div class="flex gap-3">
+
+                      <div class="p1"><img class="img-layout"
+                              src="https://pbs.twimg.com/profile_images/1810258334651494400/Gc3PZMyU_400x400.jpg"
+                              alt="img"></div>
+                      <div class="p2 ">
+                          <div>Rohit Sharma</div>
+                          <div class="text-gray-500">@ImRo45</div>
+                      </div>
+                  </div>
+
+                  <div class="p3">
+                      <button class="px-5 py-2 font-bold text-black bg-white rounded-full">Follow</button>
+                  </div>
+
+              </div>
+            </div>
+              <!-- -------------- -->
+            <div class="terms sticky top-[84vh] m-3 text-xs text-gray-500 px-3  w-1/2 py-5   space-y-1">
+              <span class="terms-css">Terms of Service</span>
+              <span class="terms-css">Privacy Policy</span>
+              <span class="terms-css">Cookie Policy</span>
+              <span class="terms-css">Accessibility</span>
+              <span class="terms-css">Ads info</span>
+              <span class="terms-css">More...</span>
+              <span class="terms-css">© 2025 X Corp.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

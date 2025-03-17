@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer components {
+  .icons {
+    @apply flex items-center justify-start gap-2 px-4 py-3 ml-2 md:w-fit hover:bg-blue-900 hover:cursor-pointer hover:rounded-full;
+  }
+}
+
+@layer components {
+  .terms-css {
+    @apply mr-2 cursor-pointer hover:underline;
+  }
+}
+@layer components {
+  .img-layout {
+    @apply w-12 h-12 border rounded-full;
+  }
+}
+
+/* @layer components {
+  .layout {
+    @apply p-3 m-5 border rounded-xl;
+  }
+} */
