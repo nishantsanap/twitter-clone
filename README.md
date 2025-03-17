@@ -1,6 +1,7 @@
 # Twitter Clone 
 
-A responsive Twitter-inspired web application featuring a sleek design and dark mode support.
+ Developed a responsive Twitter-inspired web application featuring a custom dark mode for improved user experience. Leveraged Tailwind CSS for streamlined styling, ensuring smooth layout transitions and a clean, 
+ modern UI.
 
 ##  Features
 - Responsive design for various screen sizes
